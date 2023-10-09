@@ -67,5 +67,4 @@
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" groups="qcom,waipio-vendor" remote="lineage" />
   <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" groups="qcom,sdm660" remote="lineage" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom,qcom_wlan,pdk-qcom" remote="lineage" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="lineage" />
 </manifest>
