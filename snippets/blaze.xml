@@ -56,6 +56,7 @@
 
   <!-- external repos -->
   <project path="external/colorkt" name="external_colorkt" remote="blaze" />
+  <project path="external/cronet" name="external_cronet" remote="blaze-gitlab" />
   <project path="external/dtc" name="external_dtc" remote="blaze" />
   <project path="external/erofs-utils" name="external_erofs-utils" remote="blaze" />
   <project path="external/exfatprogs" name="external_exfatprogs" remote="blaze" />
