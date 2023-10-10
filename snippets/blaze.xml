@@ -111,8 +111,10 @@
   <project path="packages/apps/RepainterServicePriv" name="packages_apps_RepainterServicePriv" remote="blaze" />
 
   <!-- system repos -->
+  <project path="system/bpf" name="system_bpf" groups="pdk" remote="blaze" />
   <project path="system/core" name="system_core" groups="pdk" remote="blaze" />
   <project path="system/libhidl" name="system_libhidl" groups="pdk" remote="blaze" />
+  <project path="system/netd" name="system_netd" groups="pdk" remote="blaze" />
   <project path="system/security" name="system_security" groups="pdk" remote="blaze" />
   <project path="system/sepolicy" name="system_sepolicy" remote="blaze" />
   <project path="system/update_engine" name="system_update_engine" remote="blaze" />
