@@ -122,6 +122,7 @@
 
   <!-- vendor repos -->
   <project path="vendor/blaze" name="vendor_blaze" remote="blaze" />
+  <project path="vendor/gms" name="vendor_gms" remote="blaze-gitlab" />
   <!--project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="vendor_nxp_opensource_packages_apps_Nfc"  remote="blaze" /-->
   <project path="vendor/support" name="vendor_support" remote="blaze" />	
   <project path="vendor/qcom/common" name="vendor_qcom_common" remote="blaze" />
