@@ -27,10 +27,15 @@
            fetch="https://github.com/LineageOS"
            revision="lineage-20.0" />
 
+   <remote  name="candy"
+           fetch="https://github.com/CandyRoms"
+           revision="c14-staging" />
+
+
   <project path="android" name="manifest" remote="blaze" />
   <project path="art" name="art" groups="pdk" remote="blaze"/>
   <project path="bionic" name="bionic" groups="pdk" remote="blaze"/>
-  <project path="build/make" name="build_make" groups="pdk"  remote="blaze" >
+  <project path="build/make" name="build_make" groups="pdk"  remote="candy" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -46,7 +51,7 @@
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="blaze" />
 
   <!-- device repos -->
-  <project path="device/blaze/sepolicy" name="device_blaze_sepolicy" remote="blaze" />
+  <project path="device/candy/sepolicy" name="device_blaze_sepolicy" remote="blaze" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="blaze" />
   <project path="device/qcom/common" name="device_qcom_common" remote="blaze" />
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="blaze" />
@@ -84,7 +89,7 @@
   <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="blaze" />
   <project path="hardware/ril" name="hardware_ril" groups="pdk" remote="blaze" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="blaze" />
-  <project path="hardware/blaze/interfaces" name="hardware_blaze_interfaces" group="pkg" remote="blaze" />
+  <project path="hardware/candy/interfaces" name="hardware_blaze_interfaces" group="pkg" remote="blaze" />
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan" groups="qcom_wlan" remote="blaze" />
    
   <!-- packages repos -->
@@ -121,7 +126,7 @@
   <project path="system/vold" name="system_vold" groups="pdk" remote="blaze" />
 
   <!-- vendor repos -->
-  <project path="vendor/blaze" name="vendor_blaze" remote="blaze" />
+  <project path="vendor/candy" name="vendor_candy" remote="candy" />
   <project path="vendor/gms" name="vendor_gms" remote="blaze-gitlab" />
   <!--project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="vendor_nxp_opensource_packages_apps_Nfc"  remote="blaze" /-->
   <project path="vendor/support" name="vendor_support" remote="blaze" />	

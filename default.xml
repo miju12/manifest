@@ -1261,9 +1261,9 @@
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
 
-  <!-- Project Blaze -->
+  <!-- CandyRoms -->
   <include name="snippets/remove.xml" />
   <include name="snippets/hardware.xml" />
-  <include name="snippets/blaze.xml" />
+  <include name="snippets/candy.xml" />
   <include name="snippets/lineage.xml" />
 </manifest>
