@@ -34,7 +34,7 @@
 
   <project path="android" name="manifest" remote="blaze" />
   <project path="art" name="art" groups="pdk" remote="candy"/>
-  <project path="bionic" name="bionic" groups="pdk" remote="blaze"/>
+  <project path="bionic" name="bionic" groups="pdk" remote="candy"/>
   <project path="build/make" name="build" groups="pdk"  remote="candy" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -48,7 +48,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="blaze" />
+  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="candy" />
 
   <!-- device repos -->
   <project path="device/candy/sepolicy" name="device_blaze_sepolicy" remote="candy" />
